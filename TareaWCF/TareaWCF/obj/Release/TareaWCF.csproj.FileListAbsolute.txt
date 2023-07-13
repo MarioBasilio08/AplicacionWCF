@@ -1,0 +1,10 @@
+D:\Trabajo\Ejercicios\AplicacionWCF\TareaWCF\TareaWCF\bin\TareaWCF.dll.config
+D:\Trabajo\Ejercicios\AplicacionWCF\TareaWCF\TareaWCF\bin\TareaWCF.dll
+D:\Trabajo\Ejercicios\AplicacionWCF\TareaWCF\TareaWCF\bin\TareaWCF.pdb
+D:\Trabajo\Ejercicios\AplicacionWCF\TareaWCF\TareaWCF\bin\Dapper.dll
+D:\Trabajo\Ejercicios\AplicacionWCF\TareaWCF\TareaWCF\bin\Dapper.xml
+D:\Trabajo\Ejercicios\AplicacionWCF\TareaWCF\TareaWCF\obj\Release\TareaWCF.csproj.AssemblyReference.cache
+D:\Trabajo\Ejercicios\AplicacionWCF\TareaWCF\TareaWCF\obj\Release\TareaWCF.csproj.CoreCompileInputs.cache
+D:\Trabajo\Ejercicios\AplicacionWCF\TareaWCF\TareaWCF\obj\Release\TareaWCF.csproj.CopyComplete
+D:\Trabajo\Ejercicios\AplicacionWCF\TareaWCF\TareaWCF\obj\Release\TareaWCF.dll
+D:\Trabajo\Ejercicios\AplicacionWCF\TareaWCF\TareaWCF\obj\Release\TareaWCF.pdb

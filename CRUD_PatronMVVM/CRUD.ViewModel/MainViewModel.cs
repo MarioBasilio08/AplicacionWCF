@@ -1,16 +1,8 @@
-﻿using CRUD.ViewModel.EmployeeService;
-using Microsoft.Win32;
-using System;
-using System.Collections.Generic;
+﻿using CRUD.Model;
+using CRUD.Model.EmployeeService;
 using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Markup;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace CRUD.ViewModel
 {
@@ -22,8 +14,9 @@ namespace CRUD.ViewModel
         private string email;
         private ObservableCollection<Employee> lista;
 
+        ServiceAdapter serv;
+
         private Employee selectedPerson;
-        EmployeeService.Service1Client servicio;
 
         private bool isButtonEnabled;
 
@@ -164,22 +157,14 @@ namespace CRUD.ViewModel
 
         public MainViewModel()
         {
-            servicio = new EmployeeService.Service1Client();
-
+            
             IsButtonEnabled = true;
             isTextBoxEnabled = false;
 
-            GetAllEmployee();
-
-
+            serv = new ServiceAdapter();
+            AllEmployee();
         }
 
-        public void GetAllEmployee()
-        {
-            Employee[] listaAux = servicio.GetAllEmployee();
-            listaAux = servicio.GetAllEmployee();
-            Lista = new ObservableCollection<Employee>(listaAux);
-        }
 
         public void Save()
         {
@@ -189,9 +174,9 @@ namespace CRUD.ViewModel
             }
             else
             {
-                Employee persona = new Employee();
-                persona.EmployeeID = id;
-                persona.EmployeeName = name;
+                EmployeeLocal persona = new EmployeeLocal();
+                persona.Id = id;
+                persona.Name = name;
                 persona.Email = email;
                 persona.Age = age;
 
@@ -201,10 +186,10 @@ namespace CRUD.ViewModel
 
                     if (result == MessageBoxResult.Yes)
                     {                        
-                        if (servicio.UpdateEmployee(persona))
+                        if (serv.updateEmployeeService(persona))
                         {
                             Limpiar();
-                            GetAllEmployee();
+                            AllEmployee();
                             IsButtonEnabled = true;
                         }
                         else
@@ -216,14 +201,14 @@ namespace CRUD.ViewModel
                 }
                 else
                 {
-                    if (servicio.InsertEmployee(persona))
+                    if (serv.insertEmployeeService(persona))
                     {
                         Limpiar();
-                        GetAllEmployee();
+                        AllEmployee();
                     }
                     else
                     {
-                        MessageBox.Show($"El Id: {persona.EmployeeID} ya se encuentra registrado", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                        MessageBox.Show($"El Id: {persona.Id} ya se encuentra registrado", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                     }
                 }
 
@@ -239,10 +224,10 @@ namespace CRUD.ViewModel
 
                 if (result == MessageBoxResult.Yes)
                 {
-                    if (servicio.DeleteEmployee(SelectedPerson.EmployeeID))
+                    if (serv.deleteEmployeeService(SelectedPerson.EmployeeID))
                     {
                         Limpiar();
-                        GetAllEmployee();
+                        AllEmployee();
                     }
                     else
                     {
@@ -301,6 +286,12 @@ namespace CRUD.ViewModel
 
             email = null;
             OnPropertyChanged("Email");
+        }
+
+        public void AllEmployee()
+        {
+            Employee[] listaAux = serv.getAllEmployee();
+            Lista = new ObservableCollection<Employee>(listaAux);
         }
 
         //public void PersonAddedChange(object s, Employee e)

@@ -33,3 +33,4 @@ D:\Trabajo\Ejercicios\AplicacionWCF\CRUD_PatronMVVM\CRUD.ViewModel\obj\Debug\CRU
 D:\Trabajo\Ejercicios\AplicacionWCF\CRUD_PatronMVVM\CRUD.ViewModel\obj\Debug\CRUD.ViewModel.csproj.CopyComplete
 D:\Trabajo\Ejercicios\AplicacionWCF\CRUD_PatronMVVM\CRUD.ViewModel\obj\Debug\CRUD.ViewModel.dll
 D:\Trabajo\Ejercicios\AplicacionWCF\CRUD_PatronMVVM\CRUD.ViewModel\obj\Debug\CRUD.ViewModel.pdb
+D:\Trabajo\Ejercicios\AplicacionWCF\CRUD_PatronMVVM\CRUD.ViewModel\bin\Debug\CRUD.Model.dll.config

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\inetpub\wwwroot\WCF_Prueba</_PublishTargetUrl>
+    <History>True|2023-07-13T18:40:18.4547457Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Dapper.dll">
+      <publishTime>06/20/2023 06:36:10</publishTime>
+    </File>
+    <File Include="bin/TareaWCF.dll">
+      <publishTime>07/13/2023 12:40:18</publishTime>
+    </File>
+    <File Include="bin/TareaWCF.pdb">
+      <publishTime>07/13/2023 12:40:18</publishTime>
+    </File>
+    <File Include="Service1.svc">
+      <publishTime>07/10/2023 12:51:42</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>07/13/2023 12:40:18</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

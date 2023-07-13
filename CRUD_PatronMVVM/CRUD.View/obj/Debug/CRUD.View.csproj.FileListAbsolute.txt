@@ -57,3 +57,6 @@ D:\Trabajo\Ejercicios\AplicacionWCF\CRUD_PatronMVVM\CRUD.View\obj\Debug\CRUD.Vie
 D:\Trabajo\Ejercicios\AplicacionWCF\CRUD_PatronMVVM\CRUD.View\obj\Debug\CRUD.View.exe
 D:\Trabajo\Ejercicios\AplicacionWCF\CRUD_PatronMVVM\CRUD.View\obj\Debug\CRUD.View.pdb
 D:\Trabajo\Ejercicios\AplicacionWCF\CRUD_PatronMVVM\CRUD.View\bin\Debug\CRUD.ViewModel.dll.config
+D:\Trabajo\Ejercicios\AplicacionWCF\CRUD_PatronMVVM\CRUD.View\bin\Debug\CRUD.Model.dll
+D:\Trabajo\Ejercicios\AplicacionWCF\CRUD_PatronMVVM\CRUD.View\bin\Debug\CRUD.Model.pdb
+D:\Trabajo\Ejercicios\AplicacionWCF\CRUD_PatronMVVM\CRUD.View\bin\Debug\CRUD.Model.dll.config

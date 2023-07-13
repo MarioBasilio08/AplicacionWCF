@@ -1,0 +1,15 @@
+D:\Trabajo\Ejercicios\AplicacionWCF\CRUD_PatronMVVM\CRUD.Model\bin\Release\CRUD.Model.dll
+D:\Trabajo\Ejercicios\AplicacionWCF\CRUD_PatronMVVM\CRUD.Model\bin\Release\CRUD.Model.pdb
+D:\Trabajo\Ejercicios\AplicacionWCF\CRUD_PatronMVVM\CRUD.Model\bin\Release\MaterialDesignColors.dll
+D:\Trabajo\Ejercicios\AplicacionWCF\CRUD_PatronMVVM\CRUD.Model\bin\Release\MaterialDesignThemes.Wpf.dll
+D:\Trabajo\Ejercicios\AplicacionWCF\CRUD_PatronMVVM\CRUD.Model\bin\Release\Microsoft.Xaml.Behaviors.dll
+D:\Trabajo\Ejercicios\AplicacionWCF\CRUD_PatronMVVM\CRUD.Model\bin\Release\MaterialDesignColors.pdb
+D:\Trabajo\Ejercicios\AplicacionWCF\CRUD_PatronMVVM\CRUD.Model\bin\Release\MaterialDesignThemes.Wpf.pdb
+D:\Trabajo\Ejercicios\AplicacionWCF\CRUD_PatronMVVM\CRUD.Model\bin\Release\MaterialDesignThemes.Wpf.xml
+D:\Trabajo\Ejercicios\AplicacionWCF\CRUD_PatronMVVM\CRUD.Model\bin\Release\Microsoft.Xaml.Behaviors.pdb
+D:\Trabajo\Ejercicios\AplicacionWCF\CRUD_PatronMVVM\CRUD.Model\bin\Release\Microsoft.Xaml.Behaviors.xml
+D:\Trabajo\Ejercicios\AplicacionWCF\CRUD_PatronMVVM\CRUD.Model\obj\Release\CRUD.Model.csproj.AssemblyReference.cache
+D:\Trabajo\Ejercicios\AplicacionWCF\CRUD_PatronMVVM\CRUD.Model\obj\Release\CRUD.Model.csproj.CoreCompileInputs.cache
+D:\Trabajo\Ejercicios\AplicacionWCF\CRUD_PatronMVVM\CRUD.Model\obj\Release\CRUD.Model.csproj.CopyComplete
+D:\Trabajo\Ejercicios\AplicacionWCF\CRUD_PatronMVVM\CRUD.Model\obj\Release\CRUD.Model.dll
+D:\Trabajo\Ejercicios\AplicacionWCF\CRUD_PatronMVVM\CRUD.Model\obj\Release\CRUD.Model.pdb

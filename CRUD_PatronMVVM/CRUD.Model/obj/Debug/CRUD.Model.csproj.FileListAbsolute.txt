@@ -28,3 +28,4 @@ D:\Trabajo\Ejercicios\AplicacionWCF\CRUD_PatronMVVM\CRUD.Model\obj\Debug\CRUD.Mo
 D:\Trabajo\Ejercicios\AplicacionWCF\CRUD_PatronMVVM\CRUD.Model\obj\Debug\CRUD.Model.csproj.CopyComplete
 D:\Trabajo\Ejercicios\AplicacionWCF\CRUD_PatronMVVM\CRUD.Model\obj\Debug\CRUD.Model.dll
 D:\Trabajo\Ejercicios\AplicacionWCF\CRUD_PatronMVVM\CRUD.Model\obj\Debug\CRUD.Model.pdb
+D:\Trabajo\Ejercicios\AplicacionWCF\CRUD_PatronMVVM\CRUD.Model\bin\Debug\CRUD.Model.dll.config
